@@ -21,7 +21,7 @@ message.member.voiceChannel.join()
 
 } else { 
 
-message.reply('** پێویستە تۆ لە ڤۆیسەکە بیت **'); 
+message.reply('** You have to be in Voice **'); 
 
 } 
 
@@ -38,7 +38,7 @@ if (message.content.startsWith("https://discord.gg/")) {
     
   message.author.send(`Done and sharing this link https://discord.gg/u7s5eDZgZY`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("852596424612380673").send(
+  client.channels.get("your channel id").send(
 `> Send By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
@@ -57,4 +57,4 @@ client.user.setGame(`Send me a Link your Server`)
 
 
 
-client.login("ODMzNDc0NDEyNDQzNDY3ODM3.YHy3iQ.nhRNUThmTtDJSmFpe0pTTdhBcAQ");// Your Token
+client.login("");// Your Token
