@@ -1,1 +1,1 @@
-# public-partner
+Partner Project
